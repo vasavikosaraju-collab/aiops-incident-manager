@@ -144,7 +144,7 @@ extended with an LLM-based router.
 Requires Python 3.12+.
 
 ```bash
-git clone https://github.com/<your-username>/aiops-incident-manager.git
+git clone https://github.com/vasavikosaraju-collab/aiops-incident-manager.git
 cd aiops-incident-manager
 
 python -m venv venv
