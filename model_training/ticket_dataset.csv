@@ -1,0 +1,751 @@
+description,team,priority
+Index rebuild required on the customers table for performance,DATABASE,MEDIUM
+the analytics platform is down and users cannot log in,APPLICATION,LOW
+the internal wiki dashboard is showing a blank page,APPLICATION,LOW
+Deadlock errors occurring on the orders table,DATABASE,MEDIUM
+Sam cannot access the reporting tool at all,APPLICATION,MEDIUM
+Network latency is very high when accessing internal sites,NETWORK,HIGH
+Suspicious login attempts detected on Fatima's account,CLOUD,HIGH
+Site-to-site VPN tunnel between offices is down,NETWORK,CRITICAL
+Slow query performance on the the billing service reporting database,DATABASE,MEDIUM
+Unable to connect to PostgreSQL instance from the internal wiki,DATABASE,LOW
+the billing service outage affecting the Toronto office,CLOUD,MEDIUM
+Load balancer health checks failing for the HR portal service,CLOUD,MEDIUM
+User reports their account may have been compromised,SECURITY,MEDIUM
+RDS instance for the HR portal needs to be resized,CLOUD,HIGH
+Maria is getting a permission denied error in the payment gateway,APPLICATION,MEDIUM
+Packet loss detected on the Toronto network segment,NETWORK,MEDIUM
+the CRM deployment caused an outage,DEVOPS,HIGH
+Terraform apply failed while provisioning the CRM infrastructure,DEVOPS,MEDIUM
+Priya is getting a permission denied error in the CRM,APPLICATION,HIGH
+Packet loss detected on the London network segment,SECURITY,HIGH
+Production database is running out of disk space,DATABASE,CRITICAL
+S3 bucket permissions need to be updated for the HR portal,CLOUD,LOW
+Index rebuild required on the customers table for performance,DATABASE,HIGH
+VLAN configuration issue causing intermittent connectivity,NETWORK,HIGH
+Need to roll back the latest deployment of the internal wiki,DEVOPS,HIGH
+CloudWatch alarms not triggering notifications,CLOUD,MEDIUM
+Deployment of the reporting tool to production failed,DEVOPS,LOW
+Performance degradation reported on the CRM,APPLICATION,HIGH
+Index rebuild required on the customers table for performance,DATABASE,LOW
+Error 500 when submitting the form on the order management system,DATABASE,HIGH
+Wi-Fi is down on the ground floor,NETWORK,CRITICAL
+Login is broken for Maria on the reporting tool,APPLICATION,MEDIUM
+Feature request: add export to CSV in the payment gateway,APPLICATION,LOW
+High CPU usage on the database server during peak hours,DATABASE,MEDIUM
+VLAN configuration issue causing intermittent connectivity,NETWORK,HIGH
+Request to review firewall rules for compliance audit,SECURITY,MEDIUM
+MySQL server crashed and restarted unexpectedly,NETWORK,MEDIUM
+RDS instance for the customer portal needs to be resized,CLOUD,LOW
+Need a new IAM role created for the the reporting tool team,CLOUD,LOW
+the inventory system dashboard is showing a blank page,APPLICATION,LOW
+Unable to connect to PostgreSQL instance from the inventory system,DATABASE,MEDIUM
+CloudWatch alarms not triggering notifications,CLOUD,LOW
+Application crashes on login for Wei,APPLICATION,HIGH
+the order management system is extremely slow for everyone,APPLICATION,MEDIUM
+DNS resolution is failing for internal domains,NETWORK,HIGH
+the reporting tool is running very slowly for all users,APPLICATION,MEDIUM
+RDS instance for the inventory system needs to be resized,CLOUD,MEDIUM
+Database replication lag between primary and replica,DATABASE,LOW
+Monitoring dashboard for the order management system is not showing recent metrics,DEVOPS,CRITICAL
+DNS resolution is failing for internal domains,NETWORK,MEDIUM
+Lambda function timing out when processing the HR portal events,CLOUD,MEDIUM
+Network latency is very high when accessing internal sites,NETWORK,LOW
+Multi-factor authentication not working for Wei,SECURITY,HIGH
+Unable to connect to the office VPN from home,NETWORK,LOW
+the order management system is down and users cannot log in,APPLICATION,CRITICAL
+Docker container for the payment gateway keeps crashing on startup,DEVOPS,HIGH
+Search functionality in the CRM returns no results,APPLICATION,HIGH
+the HR portal is down and users cannot log in,SECURITY,HIGH
+Deadlock errors occurring on the orders table,DATABASE,MEDIUM
+Application crashes on login for Sam,APPLICATION,HIGH
+Carlos cannot access the analytics platform at all,APPLICATION,CRITICAL
+Phishing email reported by Fatima,SECURITY,HIGH
+SSL certificate for the HR portal is expiring soon,SECURITY,MEDIUM
+Wi-Fi is down on the ground floor,NETWORK,MEDIUM
+Error 500 when submitting the form on the customer portal,APPLICATION,MEDIUM
+Need to provision a new environment for the customer portal on AWS,CLOUD,MEDIUM
+Request to review firewall rules for compliance audit,SECURITY,CRITICAL
+User reports their account may have been compromised,SECURITY,LOW
+VPN connection keeps dropping for Maria,NETWORK,MEDIUM
+Production database is running out of disk space,DATABASE,HIGH
+Wi-Fi is down on the 2nd floor,NETWORK,HIGH
+Phishing email reported by Fatima,SECURITY,HIGH
+Network latency is very high when accessing internal sites,NETWORK,MEDIUM
+VLAN configuration issue causing intermittent connectivity,NETWORK,HIGH
+Monitoring dashboard for the analytics platform is not showing recent metrics,DEVOPS,MEDIUM
+User reports their account may have been compromised,SECURITY,HIGH
+Unable to connect to PostgreSQL instance from the HR portal,DATABASE,MEDIUM
+Load balancer health checks failing for the internal wiki service,CLOUD,HIGH
+Security scan flagged outdated software on several laptops,SECURITY,HIGH
+Need to add a new secret to the the CRM pipeline,DEVOPS,HIGH
+Unable to connect to the office VPN from home,NETWORK,CRITICAL
+Security scan flagged outdated software on several laptops,SECURITY,HIGH
+Load balancer health checks failing for the customer portal service,CLOUD,MEDIUM
+Unable to connect to PostgreSQL instance from the order management system,DATABASE,HIGH
+Monitoring dashboard for the internal wiki is not showing recent metrics,DEVOPS,LOW
+Terraform apply failed while provisioning the payment gateway infrastructure,DEVOPS,MEDIUM
+VLAN configuration issue causing intermittent connectivity,NETWORK,MEDIUM
+Search functionality in the inventory system returns no results,APPLICATION,LOW
+ECS service deployment stuck in pending state,CLOUD,LOW
+Deadlock errors occurring on the orders table,DATABASE,HIGH
+Database connection pool exhausted for the billing service,DATABASE,HIGH
+the billing service dashboard is showing a blank page,APPLICATION,MEDIUM
+S3 bucket permissions need to be updated for the reporting tool,CLOUD,HIGH
+User reports their account may have been compromised,SECURITY,HIGH
+Notifications are not being sent from the analytics platform,APPLICATION,MEDIUM
+GitHub Actions workflow stuck and not completing,DEVOPS,HIGH
+Database connection timeout on the the analytics platform service,DATABASE,LOW
+Cloud storage costs increased significantly this month,CLOUD,MEDIUM
+Lambda function timing out when processing the inventory system events,CLOUD,HIGH
+Request to review firewall rules for compliance audit,SECURITY,HIGH
+User reports their account may have been compromised,SECURITY,HIGH
+Site-to-site VPN tunnel between offices is down,NETWORK,HIGH
+Security scan flagged outdated software on several laptops,SECURITY,MEDIUM
+Deployment of the billing service to production failed,DEVOPS,HIGH
+VLAN configuration issue causing intermittent connectivity,NETWORK,HIGH
+Access request for the HR portal needs security approval,SECURITY,MEDIUM
+Network latency is very high when accessing internal sites,NETWORK,MEDIUM
+Need to reset password and unlock account for Alex,SECURITY,MEDIUM
+Need to roll back the latest deployment of the customer portal,DEVOPS,MEDIUM
+Kubernetes pod for the HR portal is in CrashLoopBackOff,DEVOPS,HIGH
+User reports their account may have been compromised,SECURITY,CRITICAL
+Auto-scaling group did not scale up during traffic spike,CLOUD,LOW
+User cannot upload files in the customer portal,APPLICATION,MEDIUM
+Performance degradation reported on the HR portal,APPLICATION,LOW
+VLAN configuration issue causing intermittent connectivity,NETWORK,HIGH
+Need to restore a table from yesterday's database backup,DATABASE,MEDIUM
+S3 bucket permissions need to be updated for the order management system,NETWORK,MEDIUM
+User cannot access the internal network from the Toronto office,NETWORK,LOW
+VPN connection keeps dropping for Lena,NETWORK,MEDIUM
+User reports their account may have been compromised,SECURITY,HIGH
+the customer portal mobile app crashes on startup,APPLICATION,CRITICAL
+MySQL server crashed and restarted unexpectedly,DATABASE,HIGH
+Notifications are not being sent from the payment gateway,APPLICATION,LOW
+Getting connection errors when using the analytics platform,NETWORK,MEDIUM
+Application crashes on login for Sam,APPLICATION,HIGH
+the CRM outage affecting the Toronto office,CLOUD,CRITICAL
+Database connection pool exhausted for the inventory system,DATABASE,LOW
+VLAN configuration issue causing intermittent connectivity,NETWORK,LOW
+Database backup job failed last night,DATABASE,MEDIUM
+Database connection pool exhausted for the internal wiki,DATABASE,MEDIUM
+Mei is getting a permission denied error in the billing service,APPLICATION,LOW
+VLAN configuration issue causing intermittent connectivity,NETWORK,HIGH
+Cloud storage costs increased significantly this month,CLOUD,HIGH
+Build artifacts for the internal wiki are not being published,DEVOPS,CRITICAL
+Database replication lag between primary and replica,DATABASE,LOW
+Request to review firewall rules for compliance audit,SECURITY,MEDIUM
+Application crashes on login for Sam,APPLICATION,LOW
+High CPU usage on the database server during peak hours,DATABASE,MEDIUM
+the CRM is running very slowly for all users,APPLICATION,HIGH
+Database connection pool exhausted for the CRM,SECURITY,MEDIUM
+CI/CD pipeline for the inventory system is failing on the build step,DEVOPS,HIGH
+Lena cannot access the billing service at all,APPLICATION,LOW
+Load balancer health checks failing for the analytics platform service,CLOUD,HIGH
+the internal wiki is extremely slow for everyone,APPLICATION,MEDIUM
+Incorrect totals displayed on the the billing service reports page,APPLICATION,MEDIUM
+VPN connection keeps dropping for Wei,NETWORK,CRITICAL
+Database connection timeout on the the internal wiki service,DATABASE,HIGH
+Login is broken for Fatima on the billing service,APPLICATION,MEDIUM
+Index rebuild required on the customers table for performance,DATABASE,MEDIUM
+Site-to-site VPN tunnel between offices is down,NETWORK,MEDIUM
+the CRM dashboard is showing a blank page,APPLICATION,HIGH
+CI/CD pipeline for the customer portal is failing on the build step,DEVOPS,CRITICAL
+Search functionality in the CRM returns no results,APPLICATION,LOW
+the internal wiki outage affecting the remote office,CLOUD,MEDIUM
+Deployment of the order management system to production failed,DEVOPS,MEDIUM
+Load balancer health checks failing for the payment gateway service,CLOUD,LOW
+Load balancer health checks failing for the analytics platform service,CLOUD,MEDIUM
+ECS task for the CRM keeps restarting,CLOUD,MEDIUM
+Carlos is getting a permission denied error in the reporting tool,APPLICATION,LOW
+Terraform apply failed while provisioning the billing service infrastructure,CLOUD,CRITICAL
+Ethernet port in conference room B4 is not working,NETWORK,MEDIUM
+the customer portal dashboard is showing a blank page,APPLICATION,MEDIUM
+Load balancer health checks failing for the HR portal service,CLOUD,LOW
+VPN connection keeps dropping for Maria,NETWORK,MEDIUM
+Need a new IAM role created for the the HR portal team,CLOUD,CRITICAL
+CloudWatch alarms not triggering notifications,CLOUD,HIGH
+Build artifacts for the order management system are not being published,DEVOPS,LOW
+Index rebuild required on the customers table for performance,DATABASE,LOW
+Performance degradation reported on the internal wiki,APPLICATION,MEDIUM
+the payment gateway outage affecting the Bangalore office,CLOUD,LOW
+Wei cannot access the order management system at all,APPLICATION,LOW
+Lambda function timing out when processing the reporting tool events,CLOUD,CRITICAL
+Application crashes on login for Fatima,APPLICATION,HIGH
+Notifications are not being sent from the analytics platform,APPLICATION,LOW
+Ransomware alert triggered by endpoint protection on Carlos's laptop,SECURITY,LOW
+Error 500 when submitting the form on the internal wiki,APPLICATION,HIGH
+Need access to deployment logs for the internal wiki,DEVOPS,MEDIUM
+Terraform apply failed while provisioning the HR portal infrastructure,DEVOPS,LOW
+Remote employees cannot reach the corporate intranet,NETWORK,HIGH
+User cannot upload files in the CRM,DEVOPS,LOW
+ECS service deployment stuck in pending state,CLOUD,HIGH
+Ransomware alert triggered by endpoint protection on Alex's laptop,SECURITY,LOW
+High CPU usage on the database server during peak hours,DATABASE,MEDIUM
+the CRM login page is stuck on loading spinner,APPLICATION,LOW
+the order management system deployment caused an outage,DEVOPS,HIGH
+Ethernet port in conference room B4 is not working,NETWORK,MEDIUM
+Ethernet port in conference room A12 is not working,NETWORK,HIGH
+Deadlock errors occurring on the orders table,DATABASE,MEDIUM
+User reports their account may have been compromised,SECURITY,MEDIUM
+DNS resolution is failing for internal domains,NETWORK,LOW
+Deployment of the payment gateway to production failed,DEVOPS,LOW
+the HR portal dashboard is showing a blank page,APPLICATION,MEDIUM
+Access request for the internal wiki needs security approval,SECURITY,LOW
+the order management system is down and users cannot log in,APPLICATION,CRITICAL
+Production database is running out of disk space,DATABASE,MEDIUM
+Kubernetes pod for the customer portal is in CrashLoopBackOff,DEVOPS,HIGH
+Need to roll back the latest deployment of the billing service,DEVOPS,MEDIUM
+SSL certificate for the internal wiki is expiring soon,SECURITY,LOW
+the order management system is down and users cannot log in,NETWORK,LOW
+ECS task for the payment gateway keeps restarting,CLOUD,MEDIUM
+the HR portal dashboard is showing a blank page,APPLICATION,LOW
+Malware detected on a workstation in the New York office,SECURITY,CRITICAL
+Network latency is very high when accessing internal sites,NETWORK,LOW
+User cannot upload files in the CRM,APPLICATION,HIGH
+the analytics platform dashboard is showing a blank page,APPLICATION,MEDIUM
+Production database is running out of disk space,DATABASE,CRITICAL
+Deadlock errors occurring on the orders table,DATABASE,HIGH
+Multi-factor authentication not working for Lena,SECURITY,MEDIUM
+Ethernet port in conference room A12 is not working,NETWORK,HIGH
+Notifications are not being sent from the reporting tool,APPLICATION,MEDIUM
+Need to add a new secret to the the HR portal pipeline,DEVOPS,CRITICAL
+Need a new IAM role created for the the inventory system team,CLOUD,HIGH
+Terraform apply failed while provisioning the reporting tool infrastructure,DEVOPS,LOW
+Need to add a new secret to the the customer portal pipeline,DATABASE,MEDIUM
+Index rebuild required on the customers table for performance,DATABASE,HIGH
+Phishing email reported by Sam,SECURITY,LOW
+User reports their account may have been compromised,SECURITY,HIGH
+Cloud storage costs increased significantly this month,CLOUD,MEDIUM
+User reports their account may have been compromised,SECURITY,HIGH
+the HR portal is down and users cannot log in,APPLICATION,MEDIUM
+CI/CD pipeline for the order management system is failing on the build step,DEVOPS,MEDIUM
+Request to review firewall rules for compliance audit,SECURITY,LOW
+Deployment of the CRM to production failed,DEVOPS,LOW
+Alex is getting a permission denied error in the CRM,APPLICATION,MEDIUM
+S3 bucket permissions need to be updated for the customer portal,CLOUD,MEDIUM
+S3 bucket permissions need to be updated for the order management system,CLOUD,CRITICAL
+the inventory system login page is stuck on loading spinner,APPLICATION,LOW
+Need to roll back the latest deployment of the customer portal,DEVOPS,MEDIUM
+Auto-scaling group did not scale up during traffic spike,CLOUD,LOW
+Build artifacts for the order management system are not being published,DEVOPS,MEDIUM
+CloudWatch alarms not triggering notifications,CLOUD,CRITICAL
+Error 500 when submitting the form on the reporting tool,APPLICATION,MEDIUM
+Need to restore a table from yesterday's database backup,DATABASE,CRITICAL
+Database connection pool exhausted for the analytics platform,DATABASE,MEDIUM
+Database connection timeout on the the payment gateway service,DATABASE,MEDIUM
+High CPU usage on the database server during peak hours,DATABASE,MEDIUM
+Need to restore a table from yesterday's database backup,DATABASE,HIGH
+ECS service deployment stuck in pending state,CLOUD,LOW
+Getting connection errors when using the analytics platform,NETWORK,HIGH
+SSL certificate for the analytics platform is expiring soon,SECURITY,HIGH
+Monitoring dashboard for the reporting tool is not showing recent metrics,DEVOPS,LOW
+Error 500 when submitting the form on the billing service,APPLICATION,LOW
+the HR portal is extremely slow for everyone,APPLICATION,HIGH
+Database connection pool exhausted for the customer portal,DATABASE,MEDIUM
+Malware detected on a workstation in the Bangalore office,SECURITY,LOW
+VLAN configuration issue causing intermittent connectivity,NETWORK,LOW
+Multi-factor authentication not working for Mei,SECURITY,HIGH
+Cloud storage costs increased significantly this month,CLOUD,MEDIUM
+the analytics platform is down and users cannot log in,APPLICATION,LOW
+Network latency is very high when accessing internal sites,NETWORK,MEDIUM
+Error 500 when submitting the form on the inventory system,APPLICATION,MEDIUM
+Database replication lag between primary and replica,DATABASE,LOW
+GitHub Actions workflow stuck and not completing,DEVOPS,MEDIUM
+Need to provision a new environment for the analytics platform on AWS,CLOUD,MEDIUM
+the reporting tool outage affecting the London office,CLOUD,HIGH
+Cloud storage costs increased significantly this month,CLOUD,LOW
+Malware detected on a workstation in the London office,SECURITY,LOW
+Packet loss detected on the Bangalore network segment,NETWORK,MEDIUM
+DNS resolution is failing for internal domains,NETWORK,LOW
+ECS service deployment stuck in pending state,CLOUD,CRITICAL
+the HR portal dashboard is showing a blank page,APPLICATION,MEDIUM
+Getting connection errors when using the inventory system,NETWORK,HIGH
+Docker container for the reporting tool keeps crashing on startup,DEVOPS,HIGH
+the inventory system is running very slowly for all users,APPLICATION,LOW
+User cannot upload files in the HR portal,APPLICATION,MEDIUM
+Index rebuild required on the customers table for performance,DATABASE,LOW
+Docker container for the internal wiki keeps crashing on startup,DEVOPS,HIGH
+Notifications are not being sent from the billing service,APPLICATION,MEDIUM
+the CRM is extremely slow for everyone,APPLICATION,CRITICAL
+Firewall is blocking access to the customer portal,NETWORK,LOW
+Terraform apply failed while provisioning the reporting tool infrastructure,DEVOPS,LOW
+Need to reset password and unlock account for Mei,SECURITY,LOW
+Multi-factor authentication not working for Lena,SECURITY,HIGH
+Need to provision a new environment for the inventory system on AWS,CLOUD,HIGH
+SSL certificate for the payment gateway is expiring soon,SECURITY,CRITICAL
+User cannot upload files in the internal wiki,APPLICATION,LOW
+Security scan flagged outdated software on several laptops,SECURITY,MEDIUM
+Request to review firewall rules for compliance audit,SECURITY,HIGH
+Login is broken for Mei on the HR portal,APPLICATION,CRITICAL
+the payment gateway deployment caused an outage,DEVOPS,LOW
+Remote employees cannot reach the corporate intranet,NETWORK,CRITICAL
+the inventory system is extremely slow for everyone,APPLICATION,MEDIUM
+Cloud storage costs increased significantly this month,CLOUD,MEDIUM
+Build artifacts for the order management system are not being published,DEVOPS,MEDIUM
+RDS instance for the CRM needs to be resized,CLOUD,LOW
+Cloud storage costs increased significantly this month,CLOUD,MEDIUM
+the customer portal is running very slowly for all users,APPLICATION,LOW
+Performance degradation reported on the inventory system,APPLICATION,MEDIUM
+Mei cannot access the inventory system at all,APPLICATION,CRITICAL
+Access request for the order management system needs security approval,SECURITY,CRITICAL
+VPN connection keeps dropping for Alex,NETWORK,HIGH
+GitHub Actions workflow stuck and not completing,DEVOPS,MEDIUM
+RDS instance for the internal wiki needs to be resized,CLOUD,MEDIUM
+Deadlock errors occurring on the orders table,DATABASE,HIGH
+Application crashes on login for Maria,APPLICATION,LOW
+Deadlock errors occurring on the orders table,DATABASE,CRITICAL
+Database connection pool exhausted for the CRM,DATABASE,HIGH
+the analytics platform login page is stuck on loading spinner,APPLICATION,MEDIUM
+Database backup job failed last night,DATABASE,MEDIUM
+RDS instance for the CRM needs to be resized,CLOUD,MEDIUM
+Phishing email reported by Mei,SECURITY,MEDIUM
+the CRM is down and users cannot log in,APPLICATION,HIGH
+Deployment of the HR portal to production failed,DEVOPS,LOW
+Unable to connect to the office VPN from home,NETWORK,CRITICAL
+Need to add a new secret to the the HR portal pipeline,DEVOPS,MEDIUM
+Access request for the payment gateway needs security approval,SECURITY,MEDIUM
+Docker container for the HR portal keeps crashing on startup,DATABASE,LOW
+High CPU usage on the database server during peak hours,DATABASE,LOW
+CloudWatch alarms not triggering notifications,CLOUD,MEDIUM
+John cannot access the customer portal at all,APPLICATION,MEDIUM
+the inventory system is running very slowly for all users,APPLICATION,MEDIUM
+the analytics platform login page is stuck on loading spinner,APPLICATION,HIGH
+Site-to-site VPN tunnel between offices is down,NETWORK,MEDIUM
+Lena cannot access the inventory system at all,APPLICATION,LOW
+GitHub Actions workflow stuck and not completing,DEVOPS,HIGH
+Notifications are not being sent from the customer portal,APPLICATION,CRITICAL
+Monitoring dashboard for the HR portal is not showing recent metrics,DEVOPS,HIGH
+Getting connection errors when using the customer portal,NETWORK,CRITICAL
+Ransomware alert triggered by endpoint protection on Priya's laptop,SECURITY,MEDIUM
+Need a new IAM role created for the the CRM team,CLOUD,LOW
+Remote employees cannot reach the corporate intranet,NETWORK,CRITICAL
+Firewall is blocking access to the inventory system,NETWORK,MEDIUM
+Phishing email reported by John,SECURITY,MEDIUM
+Need to reset password and unlock account for Alex,NETWORK,MEDIUM
+Slow query performance on the the internal wiki reporting database,DATABASE,HIGH
+Need to roll back the latest deployment of the order management system,DEVOPS,MEDIUM
+Need to roll back the latest deployment of the payment gateway,DEVOPS,HIGH
+Need to restore a table from yesterday's database backup,DATABASE,CRITICAL
+User cannot access the internal network from the remote office,NETWORK,MEDIUM
+User reports their account may have been compromised,SECURITY,HIGH
+Notifications are not being sent from the customer portal,APPLICATION,LOW
+the reporting tool is extremely slow for everyone,DATABASE,HIGH
+Database connection pool exhausted for the payment gateway,DATABASE,CRITICAL
+AWS EC2 instance for the HR portal is not responding,CLOUD,CRITICAL
+Access request for the customer portal needs security approval,SECURITY,MEDIUM
+User reports their account may have been compromised,SECURITY,MEDIUM
+Database replication lag between primary and replica,DATABASE,MEDIUM
+the CRM is down and users cannot log in,APPLICATION,HIGH
+Login is broken for Alex on the inventory system,SECURITY,LOW
+Load balancer health checks failing for the billing service service,DEVOPS,LOW
+Cloud storage costs increased significantly this month,CLOUD,LOW
+Need to restore a table from yesterday's database backup,APPLICATION,HIGH
+Site-to-site VPN tunnel between offices is down,NETWORK,MEDIUM
+Database connection pool exhausted for the customer portal,CLOUD,MEDIUM
+High CPU usage on the database server during peak hours,DATABASE,MEDIUM
+Need to reset password and unlock account for Mei,SECURITY,MEDIUM
+Ethernet port in conference room C201 is not working,CLOUD,LOW
+Getting connection errors when using the customer portal,NETWORK,MEDIUM
+Need to restore a table from yesterday's database backup,DATABASE,LOW
+the HR portal mobile app crashes on startup,DEVOPS,MEDIUM
+Site-to-site VPN tunnel between offices is down,NETWORK,MEDIUM
+the analytics platform is extremely slow for everyone,APPLICATION,CRITICAL
+Lambda function timing out when processing the analytics platform events,CLOUD,HIGH
+High CPU usage on the database server during peak hours,DATABASE,LOW
+Unable to connect to PostgreSQL instance from the reporting tool,DATABASE,MEDIUM
+Phishing email reported by Lena,SECURITY,HIGH
+High CPU usage on the database server during peak hours,DATABASE,LOW
+Database connection timeout on the the internal wiki service,DATABASE,MEDIUM
+Performance degradation reported on the HR portal,APPLICATION,MEDIUM
+Need to add a new secret to the the reporting tool pipeline,DEVOPS,LOW
+CloudWatch alarms not triggering notifications,CLOUD,HIGH
+Monitoring dashboard for the order management system is not showing recent metrics,DEVOPS,CRITICAL
+Unable to connect to PostgreSQL instance from the order management system,DATABASE,HIGH
+Request to review firewall rules for compliance audit,SECURITY,MEDIUM
+Deployment of the HR portal to production failed,DEVOPS,MEDIUM
+Load balancer health checks failing for the internal wiki service,CLOUD,LOW
+GitHub Actions workflow stuck and not completing,DEVOPS,HIGH
+Error 500 when submitting the form on the analytics platform,APPLICATION,MEDIUM
+VPN connection keeps dropping for Alex,NETWORK,HIGH
+Need to provision a new environment for the billing service on AWS,CLOUD,MEDIUM
+Need access to deployment logs for the payment gateway,DEVOPS,MEDIUM
+Alex is getting a permission denied error in the analytics platform,APPLICATION,HIGH
+Suspicious login attempts detected on Sam's account,SECURITY,MEDIUM
+Security scan flagged outdated software on several laptops,SECURITY,HIGH
+Notifications are not being sent from the order management system,APPLICATION,HIGH
+User cannot access the internal network from the Toronto office,NETWORK,MEDIUM
+the HR portal is running very slowly for all users,APPLICATION,HIGH
+Need access to deployment logs for the CRM,DEVOPS,HIGH
+Access request for the internal wiki needs security approval,SECURITY,CRITICAL
+Need to reset password and unlock account for John,SECURITY,MEDIUM
+Need access to deployment logs for the customer portal,DEVOPS,LOW
+Feature request: add export to CSV in the internal wiki,APPLICATION,MEDIUM
+S3 bucket permissions need to be updated for the analytics platform,CLOUD,HIGH
+Need access to deployment logs for the billing service,DEVOPS,MEDIUM
+GitHub Actions workflow stuck and not completing,DEVOPS,MEDIUM
+Need to restore a table from yesterday's database backup,DATABASE,HIGH
+the inventory system is extremely slow for everyone,APPLICATION,LOW
+Terraform apply failed while provisioning the CRM infrastructure,DEVOPS,MEDIUM
+Deadlock errors occurring on the orders table,DATABASE,LOW
+ECS task for the billing service keeps restarting,CLOUD,LOW
+Performance degradation reported on the billing service,APPLICATION,MEDIUM
+Need access to deployment logs for the payment gateway,DEVOPS,HIGH
+AWS EC2 instance for the inventory system is not responding,CLOUD,HIGH
+Auto-scaling group did not scale up during traffic spike,CLOUD,CRITICAL
+User cannot upload files in the billing service,APPLICATION,HIGH
+Load balancer health checks failing for the HR portal service,CLOUD,LOW
+High CPU usage on the database server during peak hours,DATABASE,MEDIUM
+Wi-Fi is down on the 3rd floor,NETWORK,HIGH
+VPN connection keeps dropping for Wei,NETWORK,LOW
+Notifications are not being sent from the CRM,APPLICATION,HIGH
+Docker container for the internal wiki keeps crashing on startup,DEVOPS,CRITICAL
+the customer portal dashboard is showing a blank page,APPLICATION,LOW
+Error 500 when submitting the form on the customer portal,APPLICATION,HIGH
+Access request for the reporting tool needs security approval,SECURITY,MEDIUM
+Terraform apply failed while provisioning the HR portal infrastructure,DEVOPS,HIGH
+Load balancer health checks failing for the billing service service,DATABASE,MEDIUM
+Application crashes on login for Maria,APPLICATION,CRITICAL
+Database backup job failed last night,DATABASE,MEDIUM
+User cannot access the internal network from the Toronto office,NETWORK,LOW
+Need access to deployment logs for the analytics platform,DEVOPS,MEDIUM
+Production database is running out of disk space,DATABASE,LOW
+Login is broken for Carlos on the CRM,APPLICATION,LOW
+the internal wiki deployment caused an outage,DEVOPS,LOW
+Cloud storage costs increased significantly this month,CLOUD,MEDIUM
+Unauthorized access attempt blocked by intrusion detection,SECURITY,HIGH
+Need to restore a table from yesterday's database backup,DATABASE,LOW
+Site-to-site VPN tunnel between offices is down,NETWORK,HIGH
+the analytics platform deployment caused an outage,DEVOPS,MEDIUM
+Need a new IAM role created for the the analytics platform team,CLOUD,CRITICAL
+Maria is getting a permission denied error in the analytics platform,APPLICATION,LOW
+GitHub Actions workflow stuck and not completing,DEVOPS,HIGH
+ECS task for the order management system keeps restarting,CLOUD,LOW
+Unauthorized access attempt blocked by intrusion detection,SECURITY,MEDIUM
+Multi-factor authentication not working for Priya,NETWORK,LOW
+Phishing email reported by Alex,SECURITY,LOW
+the analytics platform outage affecting the remote office,CLOUD,MEDIUM
+Terraform apply failed while provisioning the CRM infrastructure,DEVOPS,LOW
+Ransomware alert triggered by endpoint protection on Lena's laptop,SECURITY,LOW
+Multi-factor authentication not working for Fatima,SECURITY,LOW
+VPN connection keeps dropping for Priya,NETWORK,MEDIUM
+Need access to deployment logs for the order management system,DEVOPS,LOW
+Security scan flagged outdated software on several laptops,SECURITY,HIGH
+the HR portal dashboard is showing a blank page,APPLICATION,MEDIUM
+Network latency is very high when accessing internal sites,NETWORK,LOW
+Index rebuild required on the customers table for performance,DATABASE,LOW
+Search functionality in the inventory system returns no results,APPLICATION,MEDIUM
+Security scan flagged outdated software on several laptops,SECURITY,MEDIUM
+Malware detected on a workstation in the Toronto office,SECURITY,HIGH
+Fatima is getting a permission denied error in the order management system,APPLICATION,LOW
+Network latency is very high when accessing internal sites,NETWORK,HIGH
+the payment gateway outage affecting the Bangalore office,CLOUD,HIGH
+Need a new IAM role created for the the reporting tool team,CLOUD,MEDIUM
+Database connection pool exhausted for the payment gateway,DATABASE,HIGH
+Firewall is blocking access to the customer portal,NETWORK,HIGH
+Unable to connect to PostgreSQL instance from the CRM,DATABASE,MEDIUM
+Login is broken for Fatima on the customer portal,APPLICATION,MEDIUM
+Search functionality in the customer portal returns no results,APPLICATION,HIGH
+Monitoring dashboard for the payment gateway is not showing recent metrics,DEVOPS,HIGH
+Site-to-site VPN tunnel between offices is down,NETWORK,MEDIUM
+Phishing email reported by Wei,SECURITY,LOW
+Login is broken for Fatima on the customer portal,APPLICATION,MEDIUM
+Site-to-site VPN tunnel between offices is down,NETWORK,LOW
+S3 bucket permissions need to be updated for the CRM,CLOUD,MEDIUM
+Error 500 when submitting the form on the CRM,APPLICATION,CRITICAL
+Remote employees cannot reach the corporate intranet,NETWORK,HIGH
+S3 bucket permissions need to be updated for the billing service,CLOUD,LOW
+the order management system deployment caused an outage,DEVOPS,LOW
+Auto-scaling group did not scale up during traffic spike,CLOUD,MEDIUM
+CI/CD pipeline for the internal wiki is failing on the build step,DEVOPS,MEDIUM
+the internal wiki is extremely slow for everyone,APPLICATION,HIGH
+Feature request: add export to CSV in the internal wiki,APPLICATION,CRITICAL
+Remote employees cannot reach the corporate intranet,NETWORK,LOW
+High CPU usage on the database server during peak hours,DATABASE,HIGH
+CloudWatch alarms not triggering notifications,CLOUD,CRITICAL
+Getting connection errors when using the order management system,NETWORK,MEDIUM
+Multi-factor authentication not working for Wei,SECURITY,HIGH
+VLAN configuration issue causing intermittent connectivity,NETWORK,MEDIUM
+Security scan flagged outdated software on several laptops,SECURITY,LOW
+the reporting tool outage affecting the Toronto office,CLOUD,LOW
+Need a new staging environment set up for the payment gateway,DEVOPS,LOW
+S3 bucket permissions need to be updated for the CRM,CLOUD,HIGH
+the analytics platform is extremely slow for everyone,DATABASE,CRITICAL
+Database replication lag between primary and replica,DATABASE,MEDIUM
+Packet loss detected on the remote network segment,SECURITY,HIGH
+Search functionality in the HR portal returns no results,APPLICATION,HIGH
+Terraform apply failed while provisioning the billing service infrastructure,DEVOPS,LOW
+VPN connection keeps dropping for Fatima,NETWORK,CRITICAL
+Need a new IAM role created for the the payment gateway team,CLOUD,HIGH
+Multi-factor authentication not working for Alex,SECURITY,CRITICAL
+Production database is running out of disk space,DATABASE,MEDIUM
+Login is broken for Sam on the HR portal,APPLICATION,MEDIUM
+Deployment of the payment gateway to production failed,DEVOPS,HIGH
+MySQL server crashed and restarted unexpectedly,DATABASE,MEDIUM
+Production database is running out of disk space,DATABASE,MEDIUM
+Need to restore a table from yesterday's database backup,DATABASE,CRITICAL
+Database connection pool exhausted for the inventory system,APPLICATION,LOW
+Load balancer health checks failing for the customer portal service,CLOUD,MEDIUM
+Need a new staging environment set up for the reporting tool,DEVOPS,MEDIUM
+Unable to connect to the office VPN from home,NETWORK,MEDIUM
+Request to review firewall rules for compliance audit,SECURITY,MEDIUM
+Error 500 when submitting the form on the payment gateway,SECURITY,HIGH
+ECS service deployment stuck in pending state,CLOUD,HIGH
+High CPU usage on the database server during peak hours,DATABASE,MEDIUM
+Phishing email reported by Carlos,CLOUD,MEDIUM
+the customer portal is down and users cannot log in,APPLICATION,HIGH
+High CPU usage on the database server during peak hours,DATABASE,LOW
+Network latency is very high when accessing internal sites,NETWORK,HIGH
+Database connection timeout on the the order management system service,DATABASE,LOW
+Slow query performance on the the customer portal reporting database,DATABASE,LOW
+the internal wiki login page is stuck on loading spinner,APPLICATION,MEDIUM
+S3 bucket permissions need to be updated for the analytics platform,CLOUD,MEDIUM
+Suspicious login attempts detected on Fatima's account,SECURITY,MEDIUM
+User reports their account may have been compromised,SECURITY,MEDIUM
+Site-to-site VPN tunnel between offices is down,NETWORK,LOW
+Security scan flagged outdated software on several laptops,SECURITY,MEDIUM
+CloudWatch alarms not triggering notifications,CLOUD,HIGH
+Slow query performance on the the reporting tool reporting database,DATABASE,LOW
+Access request for the payment gateway needs security approval,SECURITY,MEDIUM
+Performance degradation reported on the payment gateway,APPLICATION,HIGH
+Malware detected on a workstation in the London office,SECURITY,LOW
+Docker container for the analytics platform keeps crashing on startup,DEVOPS,MEDIUM
+Need to add a new secret to the the customer portal pipeline,DEVOPS,LOW
+Index rebuild required on the customers table for performance,DATABASE,MEDIUM
+Notifications are not being sent from the order management system,APPLICATION,MEDIUM
+the reporting tool is running very slowly for all users,APPLICATION,MEDIUM
+Login is broken for Alex on the internal wiki,APPLICATION,LOW
+Wi-Fi is down on the 2nd floor,NETWORK,MEDIUM
+Request to review firewall rules for compliance audit,SECURITY,HIGH
+Lambda function timing out when processing the order management system events,SECURITY,HIGH
+Getting connection errors when using the order management system,NETWORK,MEDIUM
+Incorrect totals displayed on the the billing service reports page,APPLICATION,LOW
+Firewall is blocking access to the billing service,NETWORK,HIGH
+ECS service deployment stuck in pending state,CLOUD,MEDIUM
+Index rebuild required on the customers table for performance,DATABASE,MEDIUM
+Slow query performance on the the internal wiki reporting database,DATABASE,MEDIUM
+RDS instance for the reporting tool needs to be resized,CLOUD,MEDIUM
+Access request for the reporting tool needs security approval,SECURITY,MEDIUM
+the CRM dashboard is showing a blank page,APPLICATION,CRITICAL
+Terraform apply failed while provisioning the analytics platform infrastructure,DEVOPS,HIGH
+User cannot access the internal network from the Toronto office,NETWORK,CRITICAL
+John cannot access the analytics platform at all,APPLICATION,HIGH
+User cannot upload files in the customer portal,APPLICATION,MEDIUM
+ECS service deployment stuck in pending state,CLOUD,MEDIUM
+Firewall is blocking access to the billing service,DATABASE,MEDIUM
+Index rebuild required on the customers table for performance,DATABASE,HIGH
+the CRM is down and users cannot log in,APPLICATION,CRITICAL
+the reporting tool dashboard is showing a blank page,APPLICATION,LOW
+Cloud storage costs increased significantly this month,CLOUD,LOW
+Deadlock errors occurring on the orders table,DATABASE,MEDIUM
+Ransomware alert triggered by endpoint protection on Mei's laptop,SECURITY,MEDIUM
+Remote employees cannot reach the corporate intranet,NETWORK,MEDIUM
+Login is broken for Wei on the internal wiki,APPLICATION,HIGH
+Suspicious login attempts detected on Alex's account,SECURITY,MEDIUM
+Packet loss detected on the Toronto network segment,NETWORK,CRITICAL
+ECS task for the analytics platform keeps restarting,CLOUD,LOW
+Firewall is blocking access to the customer portal,NETWORK,LOW
+Phishing email reported by Carlos,SECURITY,MEDIUM
+Unable to connect to PostgreSQL instance from the payment gateway,DATABASE,LOW
+Need to provision a new environment for the reporting tool on AWS,DEVOPS,MEDIUM
+the payment gateway mobile app crashes on startup,DEVOPS,LOW
+the reporting tool outage affecting the London office,CLOUD,MEDIUM
+Need to provision a new environment for the customer portal on AWS,CLOUD,LOW
+DNS resolution is failing for internal domains,NETWORK,MEDIUM
+Wi-Fi is down on the ground floor,NETWORK,MEDIUM
+ECS service deployment stuck in pending state,CLOUD,MEDIUM
+CI/CD pipeline for the billing service is failing on the build step,DEVOPS,CRITICAL
+Need to roll back the latest deployment of the billing service,DEVOPS,MEDIUM
+Site-to-site VPN tunnel between offices is down,NETWORK,MEDIUM
+Search functionality in the inventory system returns no results,APPLICATION,MEDIUM
+Database connection timeout on the the payment gateway service,DATABASE,MEDIUM
+Fatima is getting a permission denied error in the inventory system,APPLICATION,MEDIUM
+Docker container for the customer portal keeps crashing on startup,DEVOPS,HIGH
+Build artifacts for the inventory system are not being published,DEVOPS,MEDIUM
+Phishing email reported by Alex,NETWORK,HIGH
+ECS service deployment stuck in pending state,CLOUD,MEDIUM
+Network latency is very high when accessing internal sites,NETWORK,HIGH
+Need access to deployment logs for the analytics platform,DEVOPS,MEDIUM
+Priya cannot access the billing service at all,APPLICATION,HIGH
+Need to reset password and unlock account for Wei,APPLICATION,HIGH
+Suspicious login attempts detected on Priya's account,SECURITY,LOW
+Maria cannot access the reporting tool at all,APPLICATION,HIGH
+Need to reset password and unlock account for Fatima,SECURITY,LOW
+Database backup job failed last night,DATABASE,MEDIUM
+Database connection timeout on the the order management system service,DATABASE,CRITICAL
+Cloud storage costs increased significantly this month,CLOUD,MEDIUM
+Incorrect totals displayed on the the order management system reports page,APPLICATION,MEDIUM
+Site-to-site VPN tunnel between offices is down,NETWORK,LOW
+Packet loss detected on the Toronto network segment,NETWORK,HIGH
+Getting connection errors when using the payment gateway,DATABASE,MEDIUM
+Kubernetes pod for the HR portal is in CrashLoopBackOff,DEVOPS,HIGH
+John is getting a permission denied error in the customer portal,APPLICATION,CRITICAL
+Deployment of the analytics platform to production failed,DEVOPS,LOW
+Ransomware alert triggered by endpoint protection on Fatima's laptop,DEVOPS,MEDIUM
+Ethernet port in conference room A12 is not working,NETWORK,LOW
+Getting connection errors when using the HR portal,NETWORK,MEDIUM
+Kubernetes pod for the internal wiki is in CrashLoopBackOff,DEVOPS,HIGH
+Ransomware alert triggered by endpoint protection on Mei's laptop,SECURITY,MEDIUM
+User reports their account may have been compromised,SECURITY,MEDIUM
+Remote employees cannot reach the corporate intranet,NETWORK,CRITICAL
+SSL certificate for the HR portal is expiring soon,SECURITY,MEDIUM
+Need to restore a table from yesterday's database backup,DATABASE,HIGH
+Notifications are not being sent from the inventory system,SECURITY,MEDIUM
+Wi-Fi is down on the 3rd floor,NETWORK,LOW
+Request to review firewall rules for compliance audit,SECURITY,MEDIUM
+Ethernet port in conference room A12 is not working,NETWORK,CRITICAL
+Login is broken for Priya on the CRM,APPLICATION,LOW
+CloudWatch alarms not triggering notifications,CLOUD,LOW
+the inventory system dashboard is showing a blank page,APPLICATION,MEDIUM
+the payment gateway login page is stuck on loading spinner,APPLICATION,MEDIUM
+AWS EC2 instance for the HR portal is not responding,CLOUD,LOW
+Unauthorized access attempt blocked by intrusion detection,SECURITY,LOW
+Need to add a new secret to the the inventory system pipeline,DEVOPS,HIGH
+ECS task for the inventory system keeps restarting,CLOUD,LOW
+Database backup job failed last night,DATABASE,LOW
+Build artifacts for the inventory system are not being published,DEVOPS,HIGH
+Need to roll back the latest deployment of the HR portal,DEVOPS,HIGH
+User reports their account may have been compromised,SECURITY,MEDIUM
+Lena cannot access the billing service at all,APPLICATION,LOW
+Error 500 when submitting the form on the CRM,APPLICATION,MEDIUM
+AWS EC2 instance for the order management system is not responding,CLOUD,MEDIUM
+Lambda function timing out when processing the order management system events,CLOUD,MEDIUM
+Need to provision a new environment for the analytics platform on AWS,CLOUD,LOW
+Build artifacts for the billing service are not being published,DEVOPS,HIGH
+SSL certificate for the internal wiki is expiring soon,SECURITY,HIGH
+RDS instance for the billing service needs to be resized,CLOUD,LOW
+Search functionality in the payment gateway returns no results,APPLICATION,LOW
+Need access to deployment logs for the HR portal,DEVOPS,HIGH
+Feature request: add export to CSV in the reporting tool,APPLICATION,MEDIUM
+Unable to connect to PostgreSQL instance from the payment gateway,DATABASE,HIGH
+Auto-scaling group did not scale up during traffic spike,CLOUD,MEDIUM
+the payment gateway is running very slowly for all users,APPLICATION,MEDIUM
+Load balancer health checks failing for the analytics platform service,CLOUD,LOW
+Docker container for the CRM keeps crashing on startup,DEVOPS,MEDIUM
+Production database is running out of disk space,DATABASE,MEDIUM
+Deadlock errors occurring on the orders table,DATABASE,LOW
+Ethernet port in conference room C201 is not working,NETWORK,MEDIUM
+ECS task for the internal wiki keeps restarting,CLOUD,HIGH
+Search functionality in the payment gateway returns no results,APPLICATION,MEDIUM
+Load balancer health checks failing for the customer portal service,CLOUD,HIGH
+Terraform apply failed while provisioning the CRM infrastructure,DEVOPS,MEDIUM
+VLAN configuration issue causing intermittent connectivity,APPLICATION,HIGH
+Getting connection errors when using the reporting tool,NETWORK,HIGH
+Docker container for the internal wiki keeps crashing on startup,DEVOPS,LOW
+the order management system deployment caused an outage,DEVOPS,HIGH
+Need to restore a table from yesterday's database backup,DATABASE,HIGH
+Build artifacts for the payment gateway are not being published,DEVOPS,HIGH
+Request to review firewall rules for compliance audit,SECURITY,MEDIUM
+Getting connection errors when using the inventory system,NETWORK,MEDIUM
+Database connection pool exhausted for the CRM,DATABASE,MEDIUM
+the reporting tool is down and users cannot log in,APPLICATION,MEDIUM
+Need to provision a new environment for the analytics platform on AWS,CLOUD,CRITICAL
+the billing service login page is stuck on loading spinner,APPLICATION,CRITICAL
+Access request for the analytics platform needs security approval,CLOUD,CRITICAL
+Firewall is blocking access to the customer portal,NETWORK,MEDIUM
+VLAN configuration issue causing intermittent connectivity,NETWORK,MEDIUM
+Error 500 when submitting the form on the inventory system,APPLICATION,MEDIUM
+Security scan flagged outdated software on several laptops,SECURITY,MEDIUM
+DNS resolution is failing for internal domains,NETWORK,MEDIUM
+Multi-factor authentication not working for John,SECURITY,HIGH
+Mei cannot access the inventory system at all,APPLICATION,CRITICAL
+Unable to connect to the office VPN from home,NETWORK,MEDIUM
+Notifications are not being sent from the customer portal,APPLICATION,HIGH
+User reports their account may have been compromised,SECURITY,MEDIUM
+Need to add a new secret to the the billing service pipeline,DEVOPS,HIGH
+Network latency is very high when accessing internal sites,NETWORK,MEDIUM
+S3 bucket permissions need to be updated for the billing service,CLOUD,HIGH
+ECS service deployment stuck in pending state,CLOUD,LOW
+Need access to deployment logs for the customer portal,DEVOPS,HIGH
+S3 bucket permissions need to be updated for the customer portal,CLOUD,CRITICAL
+Firewall is blocking access to the order management system,NETWORK,HIGH
+GitHub Actions workflow stuck and not completing,DEVOPS,MEDIUM
+John cannot access the customer portal at all,CLOUD,MEDIUM
+Firewall is blocking access to the HR portal,NETWORK,HIGH
+the analytics platform mobile app crashes on startup,APPLICATION,MEDIUM
+Deadlock errors occurring on the orders table,DATABASE,LOW
+Remote employees cannot reach the corporate intranet,NETWORK,HIGH
+Unable to connect to the office VPN from home,NETWORK,MEDIUM
+Docker container for the analytics platform keeps crashing on startup,DEVOPS,LOW
+Security scan flagged outdated software on several laptops,SECURITY,LOW
+the customer portal outage affecting the remote office,CLOUD,HIGH
+Network latency is very high when accessing internal sites,NETWORK,LOW
+SSL certificate for the internal wiki is expiring soon,SECURITY,HIGH
+CI/CD pipeline for the CRM is failing on the build step,DEVOPS,CRITICAL
+Need a new staging environment set up for the reporting tool,DEVOPS,LOW
+the HR portal is running very slowly for all users,APPLICATION,CRITICAL
+Getting connection errors when using the analytics platform,NETWORK,MEDIUM
+Mei cannot access the customer portal at all,APPLICATION,MEDIUM
+RDS instance for the customer portal needs to be resized,CLOUD,MEDIUM
+CI/CD pipeline for the internal wiki is failing on the build step,DEVOPS,MEDIUM
+Docker container for the reporting tool keeps crashing on startup,DEVOPS,HIGH
+Login is broken for Mei on the customer portal,APPLICATION,HIGH
+DNS resolution is failing for internal domains,NETWORK,MEDIUM
+MySQL server crashed and restarted unexpectedly,DATABASE,LOW
+the analytics platform mobile app crashes on startup,APPLICATION,LOW
+User cannot access the internal network from the Bangalore office,NETWORK,HIGH
+Production database is running out of disk space,DATABASE,MEDIUM
+Firewall is blocking access to the billing service,NETWORK,MEDIUM
+Database connection pool exhausted for the customer portal,DATABASE,CRITICAL
+Need to restore a table from yesterday's database backup,NETWORK,LOW
+DNS resolution is failing for internal domains,NETWORK,MEDIUM
+VPN connection keeps dropping for Alex,NETWORK,MEDIUM
+the reporting tool deployment caused an outage,DEVOPS,HIGH
+User cannot upload files in the reporting tool,APPLICATION,MEDIUM
+VLAN configuration issue causing intermittent connectivity,NETWORK,MEDIUM
+Database backup job failed last night,DEVOPS,LOW
+Suspicious login attempts detected on Sam's account,SECURITY,CRITICAL
+Docker container for the inventory system keeps crashing on startup,DEVOPS,CRITICAL
+S3 bucket permissions need to be updated for the payment gateway,CLOUD,MEDIUM
+S3 bucket permissions need to be updated for the billing service,CLOUD,HIGH
+Unauthorized access attempt blocked by intrusion detection,SECURITY,LOW
+Deployment of the HR portal to production failed,DEVOPS,HIGH
+Unable to connect to PostgreSQL instance from the inventory system,APPLICATION,MEDIUM
+Build artifacts for the billing service are not being published,SECURITY,CRITICAL
+the analytics platform mobile app crashes on startup,APPLICATION,MEDIUM
+the payment gateway outage affecting the Bangalore office,CLOUD,HIGH
+the customer portal login page is stuck on loading spinner,APPLICATION,LOW
+the internal wiki is down and users cannot log in,APPLICATION,MEDIUM
+ECS service deployment stuck in pending state,CLOUD,MEDIUM
+Monitoring dashboard for the order management system is not showing recent metrics,DEVOPS,HIGH
+the reporting tool is down and users cannot log in,APPLICATION,MEDIUM
+Ethernet port in conference room C201 is not working,NETWORK,MEDIUM
+Malware detected on a workstation in the London office,SECURITY,MEDIUM
+Suspicious login attempts detected on Sam's account,SECURITY,HIGH
+Kubernetes pod for the internal wiki is in CrashLoopBackOff,DEVOPS,MEDIUM
+ECS service deployment stuck in pending state,CLOUD,LOW
+CI/CD pipeline for the payment gateway is failing on the build step,DEVOPS,CRITICAL
+Ethernet port in conference room D7 is not working,NETWORK,LOW
+Index rebuild required on the customers table for performance,DATABASE,LOW
+Cloud storage costs increased significantly this month,CLOUD,HIGH
+the order management system login page is stuck on loading spinner,APPLICATION,MEDIUM
+GitHub Actions workflow stuck and not completing,DEVOPS,MEDIUM
+Packet loss detected on the remote network segment,NETWORK,LOW
+Application crashes on login for Wei,APPLICATION,LOW
+Need to provision a new environment for the reporting tool on AWS,CLOUD,HIGH
+Need access to deployment logs for the customer portal,DEVOPS,MEDIUM
+User reports their account may have been compromised,SECURITY,HIGH
+Malware detected on a workstation in the remote office,SECURITY,MEDIUM
+the CRM dashboard is showing a blank page,APPLICATION,HIGH
+Index rebuild required on the customers table for performance,DATABASE,HIGH
+the HR portal mobile app crashes on startup,APPLICATION,MEDIUM
+Packet loss detected on the New York network segment,NETWORK,LOW
+MySQL server crashed and restarted unexpectedly,DATABASE,HIGH
+CI/CD pipeline for the payment gateway is failing on the build step,DEVOPS,HIGH
+Kubernetes pod for the customer portal is in CrashLoopBackOff,DEVOPS,LOW
+Unauthorized access attempt blocked by intrusion detection,SECURITY,CRITICAL
+the reporting tool is running very slowly for all users,APPLICATION,MEDIUM
+Need to provision a new environment for the order management system on AWS,CLOUD,MEDIUM
+Need to provision a new environment for the payment gateway on AWS,CLOUD,LOW
+GitHub Actions workflow stuck and not completing,DEVOPS,HIGH
+Deadlock errors occurring on the orders table,DATABASE,HIGH
+Need to roll back the latest deployment of the HR portal,DEVOPS,MEDIUM
+Database connection pool exhausted for the CRM,DEVOPS,HIGH
+Incorrect totals displayed on the the order management system reports page,CLOUD,MEDIUM
+John cannot access the HR portal at all,APPLICATION,MEDIUM
+Build artifacts for the payment gateway are not being published,DEVOPS,HIGH
+Need to reset password and unlock account for Maria,SECURITY,CRITICAL
+Need access to deployment logs for the billing service,DEVOPS,MEDIUM
+the order management system mobile app crashes on startup,APPLICATION,CRITICAL
+Login is broken for Alex on the HR portal,APPLICATION,HIGH
+Application crashes on login for Maria,APPLICATION,LOW
